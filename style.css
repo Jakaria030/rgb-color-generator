@@ -1,0 +1,30 @@
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#color-box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+#color-code{
+    font-size: 20px;
+}
+
+#copy-button, #generate-new-color{
+    background-color: rgba(0, 128, 0, 0.747);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#generate-new-color{
+    padding: 10px 8px;
+}
+#copy-button:hover, #generate-new-color:hover{
+    background-color: rgba(0, 128, 0, 0.7);
+    
+}
